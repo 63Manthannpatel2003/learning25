@@ -16,7 +16,7 @@ export const FormDemo2 = () => {
                     <br></br>
             </div>
             <div>
-                <label>EDUCATION DETAIL<ul></ul></label>
+                <label>EDUCATION Detail<ul></ul></label>
                 <input type='text' placeholder='enter your education detail'{...register("educationdetail")}></input>
                 <br></br>
             </div>
