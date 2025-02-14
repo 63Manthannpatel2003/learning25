@@ -35,6 +35,14 @@ export const FormDemo3 = () => {
             required:{
                 value:true,
                 message : "PASSWORD IS REQUIRED*"
+            },
+            minLength:{
+                value:8,
+                message :"PASSWORD MUST BE > 8"
+            },
+            maxLength:{
+                value:15,
+                message : "PASSWORD MUST BE < 15"
             }
         }
     }
@@ -72,7 +80,7 @@ export const FormDemo3 = () => {
 
 
                 <div>
-                    <input type='submit'></input>
+                    <input type='SUBMIT' value="LOG IN"/>
                 </div>
             </form>
         </div>

@@ -28,6 +28,8 @@ import { Play } from './component/hotstar/Play';
 import { FormDemo1 } from './component/Form/FormDemo1';
 import { FormDemo2 } from './component/Form/FormDemo2';
 import { FormDemo3 } from './component/Form/FormDemo3';
+import { FormDemo4 } from './component/Form/FormDemo4';
+import { FormDemo5 } from './component/Form/FormDemo5';
 
 
 function App() {
@@ -51,6 +53,8 @@ function App() {
         <Route path ="/formdemo1" element={<FormDemo1></FormDemo1>}></Route>
         <Route path ="/formdemo2" element={<FormDemo2></FormDemo2>}></Route>
         <Route path ="/formdemo3" element={<FormDemo3></FormDemo3>}></Route>
+        <Route path ="/formdemo4" element={<FormDemo4></FormDemo4>}></Route>
+        <Route path ="/formdemo5" element={<FormDemo5></FormDemo5>}></Route>
       </Routes>
       {/* <UseStateDemo></UseStateDemo>
       <UseStateDemo2></UseStateDemo2>
